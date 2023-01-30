@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            outline: 0;
+        }
+        body {
+            background-color: #F5F5F5;
+            font-family: 'Nunito Sans', sans-serif;
+            color: #272727;
+        }
+        .container {
+            display: flex;
+            column-gap: 25px;
+            justify-content: center;
+        }
+
+
+        .user-info {
+            background: white;
+            border-radius: 35px;
+            padding: 61px 28px 75px 32px;
+        }
+
+        .user-info img {
+            width: 260px;
+            margin-bottom: 21px;
+        }
+
+        .user-info h2, .user-info p {
+            font-size: 32px;
+        }
+
+        .user-info .user-name {
+            font-weight: 600;
+        }
+
+        .user-info .designition {
+            font-weight: 300;
+            margin-bottom: 21px;
+        }
+
+        .user-info i {
+            padding-right: 20.28px;
+        }
+
+        .user-info p {
+            font-weight: 600;
+        }
+
+        .company-info {
+            /* flex-grow: 2; */
+            background-color: white;
+            border-radius: 35px;
+            padding: 114px 228px 149px 39px;
+        }
+
+        .company-info h2 {
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 39px;
+        }
+
+        .company-description {
+            padding: 0 0 0 49px;
+            font-size: 36px;
+            
+        }
+        .company-description span {
+            font-weight: 600;
+        }
+        .company-description span.link {
+            color: #418CFD;
+            font-weight: 300;
+        }
+
+        .company-description table tr td:first-child {
+            vertical-align: baseline;
+            text-align: center;
+            padding-right: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="user-info">
+            <img src="user.png" alt="No image found">
+            <h2 class="user-name">Mr.Hassan Magdy</h2>
+            <h2 class="designition">CEO , ProCrew</h2>
+            <p><i class="fa-solid fa-phone"></i> Tel : 369 258 147</p>
+            <p><i class="fa-regular fa-envelope"></i> Email: h@procrew.pro</p>
+        </div>
+        <div class="company-info">
+            <h2>Company Details</h2>
+
+            <div class="company-description">
+                <table>
+                    <tr>
+                        <td>
+                            <i class="fa-solid fa-house"></i> 
+                        </td>
+                        <td>
+                            <span class="link">www.procrew.pro</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fa-solid fa-users"></i>
+                        </td>
+                        <td>
+                            <span>Employees</span> : 50 - 100
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fa-solid fa-location-dot"></i>
+                        </td>
+                        <td>
+                            <span>Location</span> : Alexandria , Egypt <br>
+                            <span>Note</span> : I am avaliable everyday from <br>
+                            9:00 AM to  5:00 PM
+                        </td>
+                    </tr>
+                </table>
+                <!-- <p>
+                    <i class="fa-solid fa-house"></i> 
+                    <span class="link">www.procrew.pro</span> 
+                </p>
+                <p>
+                    <i class="fa-solid fa-users"></i> 
+                    <span>Employees</span> : 50 - 100 
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-location-dot"></i> <span>Location</span> : Alexandria , Egypt <br>
+                    <span>Note</span> : I am avaliable everyday from <br>
+                    9:00 AM to  5:00 PM
+                </p> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
