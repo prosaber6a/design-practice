@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Button</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+        /* start primary */
+        .primary-button {
+            background-color: #487BB1;
+            border-radius: 66px;
+            padding: 8px 16px;
+            text-decoration: none;
+            color: white;
+            font-family: sans-serif;
+            cursor: pointer;
+            border: 1px solid #487BB1;
+        }
+
+        .primary-button:hover {
+            background-color: #6B95C3;
+        }
+
+        .primary-button:active {
+            border-color: #223A54;
+        }
+        .primary-button[disabled] {
+            background-color: #B2B7BD;
+            border-color: #B2B7BD;
+        }
+
+        /* end primary */
+
+        /* start secondary */
+
+        .secondary-button {
+            background-color: #FF5965;
+            border-radius: 66px;
+            padding: 8px 16px;
+            text-decoration: none;
+            color: white;
+            font-family: sans-serif;
+            cursor: pointer;
+            border: 1px solid #FF5965;
+        }
+
+        .secondary-button:hover {
+            background-color: #FF757F;
+        }
+
+        .secondary-button:active {
+            border-color: #CE000F;
+        }
+        .secondary-button[disabled] {
+            background-color: #B2B7BD;
+            border-color: #B2B7BD;
+        }
+
+        /* end secondary */
+
+        /* start outline */
+
+
+        .outline-button {
+            background-color: #fff;
+            border-radius: 66px;
+            padding: 8px 16px;
+            text-decoration: none;
+            color: #39618C;
+            font-family: sans-serif;
+            cursor: pointer;
+            border: 1px solid #39618C;
+        }
+
+        .outline-button:hover {
+            background-color: #DAE5F0;
+        }
+
+        .outline-button:active {
+            border-color: #2E4E70;
+        }
+        .outline-button[disabled] {
+            background-color: #fff;
+            border-color: #8B939C;
+            color: #8B939C;
+        }
+
+        /* end outline */
+
+
+        /* start elevated */
+        .elevated-button {
+            background-color: #487BB1;
+            border-radius: 66px;
+            padding: 8px 16px;
+            text-decoration: none;
+            color: white;
+            font-family: sans-serif;
+            cursor: pointer;
+            border: 1px solid #487BB1;
+            box-shadow: 0px 12px 32px rgba(107, 149, 195, 0.5);
+        }
+
+        .elevated-button:hover {
+            background-color: #6B95C3;
+        }
+
+        .elevated-button:active {
+            border-color: #223A54;
+        }
+        .elevated-button[disabled] {
+            background-color: #B2B7BD;
+            border-color: #B2B7BD;
+        }
+
+        /* end elevated */
+
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div style="padding: 50px 100px;">
+        <button type="button" class="primary-button">
+            <i class="fa-solid fa-plus"></i>  Label 
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+
+        <button type="button" class="secondary-button">
+            <i class="fa-solid fa-plus"></i>  Contact with Joy 
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+
+        <button type="button" class="outline-button">
+            <i class="fa-solid fa-plus"></i>  Contact with Joy 
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+
+        <button type="button" class="elevated-button">
+            <i class="fa-solid fa-plus"></i>  Label 
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+    </div>
+
+</body>
+</html>
